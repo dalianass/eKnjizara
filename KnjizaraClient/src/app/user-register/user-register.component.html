@@ -1,0 +1,108 @@
+<div class="row centriraj min-visina">
+  <div>
+    <form [formGroup]="registerForm" (ngSubmit) = "registerForm.valid && register()" autocomplete="off">
+      <h2 class="text-center text-primary">Registruj se</h2>
+      <hr>
+
+      <div class="form-group">
+        <input type="text"
+          [class.is-invalid]="registerForm.get('userName').errors && registerForm.get('userName').touched"
+          class="form-control mt-1"
+          formControlName="userName"
+         placeholder="Ime">
+         <div *ngIf="registerForm.get('userName').hasError('minlength')" class="invalid-feedback">Ime ne moze sadrzati manje od 2 karaktera</div>
+         <div *ngIf="registerForm.get('userName').hasError('required')" class="invalid-feedback">Molim vas, unesite ime</div>
+
+      </div>
+
+      <div class="form-group">
+        <input type="text"
+          [class.is-invalid]="registerForm.get('userSurname').errors && registerForm.get('userSurname').touched"
+          class="form-control mt-1"
+          formControlName="userSurname"
+         placeholder="Prezime">
+         <div *ngIf="registerForm.get('userSurname').hasError('minlength')" class="invalid-feedback">Prezime ne moze sadrzati manje od 3 karaktera</div>
+         <div *ngIf="registerForm.get('userSurname').hasError('required')" class="invalid-feedback">Molim vas, unesite prezime</div>
+
+      </div>
+
+
+      <div class="form-group">
+        <input type="text"
+          [class.is-invalid]="registerForm.get('city').errors && registerForm.get('city').touched"
+          class="form-control mt-1"
+          formControlName="city"
+         placeholder="Grad">
+         <div class="invalid-feedback">Molim vas, unesite grad</div>
+      </div>
+
+      <div class="form-group">
+        <input type="text"
+          [class.is-invalid]="registerForm.get('address').errors && registerForm.get('address').touched"
+          class="form-control mt-1"
+          formControlName="address"
+         placeholder="Adresa">
+         <div class="invalid-feedback">Molim vas, unesite svoju adresu</div>
+      </div>
+
+      <div class="form-group">
+        <input type="text"
+          [class.is-invalid]="registerForm.get('country').errors && registerForm.get('country').touched"
+          class="form-control mt-1"
+          formControlName="country"
+         placeholder="Drzava">
+         <div class="invalid-feedback">Molim vas, unesite drzavu</div>
+      </div>
+
+      <div class="form-group">
+        <input type="text"
+          [class.is-invalid]="registerForm.get('email').errors && registerForm.get('email').touched"
+          class="form-control mt-1"
+          formControlName="email"
+         placeholder="Email">
+         <div *ngIf="registerForm.get('email').hasError('email')" class="invalid-feedback">Email nije ispravno unet</div>
+         <div *ngIf="registerForm.get('email').hasError('required')" class="invalid-feedback">Molim vas, unesite email</div>
+
+      </div>
+
+      <div class="form-group">
+        <input type="password"
+        [class.is-invalid]="registerForm.get('password').errors && registerForm.get('password').touched"
+        class="form-control mt-1"
+        formControlName="password" placeholder="Password">
+        <div *ngIf="registerForm.get('password').hasError('required')" class="invalid-feedback">Molim vas, unesite password</div>
+        <div *ngIf="registerForm.get('password').hasError('minlength')" class="invalid-feedback">Password ne sme sadrzati manje od 8 karaktera</div>
+        <div *ngIf="registerForm.get('password').hasError('passInvalid')" class="invalid-feedback">Password mora sadrzati bar jedno veliko i jedno malo slovo, jedan broj i jedan znak.</div>
+      </div>
+
+      <div class="form-group">
+        <input type="password"
+        [class.is-invalid]="registerForm.get('confirmPassword').errors && registerForm.get('confirmPassword').touched"
+        class="form-control mt-1"
+        formControlName="confirmPassword" placeholder="Potvrdi password">
+        <div *ngIf="registerForm.get('confirmPassword').hasError('required')" class="invalid-feedback">Molim vas, potvrdite password</div>
+        <div *ngIf="registerForm.get('confirmPassword').hasError('isMatching')" class="invalid-feedback">Upozorenje: passwordi se ne poklapaju</div>
+      </div>
+
+      <div class="row" *ngIf="validationErrors.length > 0">
+        <ul class="text-danger">
+          <li *ngFor="let error of validationErrors">
+            {{error}}
+          </li>
+        </ul>
+      </div>
+      <a routerLink="/user/login">Vec imate nalog?</a>
+
+      <div class="form-group text-center">
+        <button [disabled]="!registerForm.valid" class="btn btn-success mr-2" type="submit"> Registruj se</button>
+        <button class="btn btn-danger mr-2" (click) = "cancel()" type="submit">Otkazi</button>
+      </div>
+
+      <!-- <p>{{registerForm.value | json}}</p>
+      <p>{{registerForm.status | json}}</p> -->
+    </form>
+
+  </div>
+
+
+</div>

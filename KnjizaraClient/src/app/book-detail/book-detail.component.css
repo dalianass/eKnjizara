@@ -1,0 +1,19 @@
+.card {
+  min-height: 600px;
+}
+
+.card-img-top {
+  height: 25rem;
+  width: 18rem;
+}
+
+.bk {
+  background-color: white;
+  margin: 2rem;
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+.min-visina {
+  min-height: 77vh;
+}

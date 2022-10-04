@@ -1,0 +1,12 @@
+<div class="row min-visina">
+  <div class="col-md-6 offset-md-3 mt-4">
+    <h3>Stranica za potvrdu email-a</h3>
+    <div class="alert alert-primary" *ngIf="emailConfirmed" role="alert">
+      Email je potvrdjen.
+      <button class="btn btn-success" routerLink="/user/login">Uloguj se</button>
+    </div>
+    <div class="alert alert-warning" *ngIf="!emailConfirmed" role="alert">
+      Neuspesna potvrda mejla
+    </div>
+  </div>
+</div>

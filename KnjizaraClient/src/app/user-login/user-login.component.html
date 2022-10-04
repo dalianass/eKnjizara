@@ -1,0 +1,53 @@
+<div class="row min-visina">
+  <div class="col-5 m-auto mt-5">
+    <div class="card custom">
+      <div class="card-header">
+        <h5>Uloguj se</h5>
+      </div>
+
+      <!-- TO DO: ISPRAVITI VALIDACIJU -->
+
+      <div class="card-body">
+        <form
+          *ngIf="(accountService.currentUser$ | async) === null"
+          #loginForm="ngForm"
+          (ngSubmit)="login()"
+          autocomplete="off"
+        >
+          <input
+            name="email"
+            [(ngModel)]="model.email"
+            class="form-control m-2"
+            type="text"
+            required
+            placeholder="Email"
+          />
+          <!-- <div *ngIf="model.email.touched && !model.email.valid">
+                <div *ngIf="model.email.errors.required">Molim vas, unesite mejl</div> -->
+          <!-- <div *ngIf="model.email.errors.email">Neispravan format mejla</div> -->
+          <!-- </div> -->
+          <input
+            name="password"
+            [(ngModel)]="model.password"
+            class="form-control m-2"
+            type="password"
+            required
+            placeholder="Password"
+          />
+          <!-- <div *ngIf="model.password.touched && !model.password.valid">Molim vas, unesite password</div> -->
+
+          <div class="form-group">
+            <button
+              [disabled]="!loginForm.valid"
+              class="btn btn-info m-2"
+              type="submit"
+            >
+              Uloguj se
+            </button>
+            <button type="reset" class="btn btn-secondary m-2">Otkazi</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

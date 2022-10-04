@@ -1,0 +1,25 @@
+.ng-invalid.ng-touched {
+  border-color: red;
+}
+
+.error-block {
+  color: red;
+}
+
+.photo-control {
+  min-height: 10rem;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px dotted blue;
+  margin-top: 1rem;
+  border-radius: 2px;
+}
+
+.margina {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.form-margin {
+  margin-bottom: 20px;
+}

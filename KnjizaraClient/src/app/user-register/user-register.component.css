@@ -1,0 +1,17 @@
+form {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 17rem;
+  padding-right:17rem ;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.85;
+  /* width: 60vw; */
+}
+
+input {
+  margin-bottom: .5rem;
+}
+
+.min-visina {
+  min-height: 77vh;
+}

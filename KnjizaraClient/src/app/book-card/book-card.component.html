@@ -1,0 +1,41 @@
+<div class="card">
+  <div class="img-wrapper">
+    <img *ngIf="knjiga.photoUrl" class="card-img-top" src="{{knjiga.photoUrl}}" alt="">
+    <img *ngIf="!knjiga.photoUrl" class="card-img-top" src="https://res.cloudinary.com/daq9ulbte/image/upload/v1663700741/d6bjrd5igbbeajxkzkpv.webp" alt="">
+  </div>
+  <div class="card-body p-2">
+    <h3>{{knjiga.naslov}}</h3>
+    <p>Autor: <strong style="color: red;">{{knjiga.autor}}</strong></p>
+    <p>Godina izdanja: {{knjiga.godinaIzdanja}}</p>
+    <p>Izdavac: {{knjiga.izdavac}}</p>
+    <h5>Cena: {{knjiga.cena}} RSD</h5>
+
+  </div>
+  <ul class="list-inline text-center">
+    <li class="list-inline-item">
+      <button routerLink="/book-detail/{{knjiga.id}}"
+      class="btn btn-danger">Detaljnije</button>
+
+
+    </li>
+    <ng-container *ngIf="currentUser && (currentUser.roles.includes('Korisnik'))">
+    <li class="list-inline-item">
+      <button class="btn btn-warning" (click) = "!vecDodataKnjiga && addtocart(knjiga)">Dodaj u korpu</button>
+    </li>
+  </ng-container>
+
+
+    <ng-container *ngIf="currentUser && (currentUser.roles.includes('Moderator') || currentUser.roles.includes('Admin'))">
+
+      <li class="list-inline-item">
+        <button class="btn btn-outline-danger" (click)="removeItem(knjiga.id)">
+          <i class="fas fa-trash-alt"></i>
+        </button>
+      </li>
+
+    </ng-container>
+  </ul>
+</div>
+
+
+

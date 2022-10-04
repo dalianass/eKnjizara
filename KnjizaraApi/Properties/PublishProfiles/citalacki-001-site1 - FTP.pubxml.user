@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://win5091.site4now.net:21/eknjizara</_PublishTargetUrl>
+    <History>True|2022-10-04T20:33:13.6347380Z;False|2022-10-04T22:30:33.0218740+02:00;True|2022-10-04T22:27:34.2109327+02:00;False|2022-10-04T22:22:18.5824625+02:00;True|2022-10-04T22:19:00.3905609+02:00;True|2022-10-04T20:58:38.9808220+02:00;False|2022-10-04T20:55:13.8057155+02:00;True|2022-10-04T20:48:03.7302199+02:00;False|2022-10-04T20:43:51.4447036+02:00;False|2022-10-04T20:43:19.6283808+02:00;False|2022-10-04T19:52:19.8538768+02:00;True|2022-10-04T19:49:13.1107478+02:00;False|2022-10-04T19:45:38.5436915+02:00;False|2022-10-04T19:35:44.4276414+02:00;True|2022-10-04T19:28:26.3637077+02:00;True|2022-10-03T19:56:04.0759854+02:00;False|2022-10-03T19:54:42.5752436+02:00;True|2022-10-03T19:49:32.3622349+02:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>10/03/2022 16:53:24</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>10/03/2022 16:38:56</publishTime>
+    </File>
+    <File Include="AutoMapper.dll">
+      <publishTime>09/30/2022 09:45:38</publishTime>
+    </File>
+    <File Include="AutoMapper.Extensions.Microsoft.DependencyInjection.dll">
+      <publishTime>09/30/2022 10:07:30</publishTime>
+    </File>
+    <File Include="BouncyCastle.Crypto.dll">
+      <publishTime>10/19/2021 11:53:34</publishTime>
+    </File>
+    <File Include="CloudinaryDotNet.dll">
+      <publishTime>09/25/2022 15:05:52</publishTime>
+    </File>
+    <File Include="KnjizaraApi.deps.json">
+      <publishTime>10/04/2022 22:32:27</publishTime>
+    </File>
+    <File Include="KnjizaraApi.dll">
+      <publishTime>10/04/2022 22:32:26</publishTime>
+    </File>
+    <File Include="KnjizaraApi.exe">
+      <publishTime>10/04/2022 22:32:26</publishTime>
+    </File>
+    <File Include="KnjizaraApi.pdb">
+      <publishTime>10/04/2022 22:32:26</publishTime>
+    </File>
+    <File Include="KnjizaraApi.runtimeconfig.json">
+      <publishTime>10/03/2022 19:44:19</publishTime>
+    </File>
+    <File Include="MailKit.dll">
+      <publishTime>09/12/2022 13:37:56</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Authentication.JwtBearer.dll">
+      <publishTime>02/17/2022 03:16:50</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Cryptography.Internal.dll">
+      <publishTime>04/23/2021 18:28:58</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Cryptography.KeyDerivation.dll">
+      <publishTime>04/23/2021 18:28:58</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll">
+      <publishTime>04/23/2021 18:30:54</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>08/25/2020 23:24:48</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>04/13/2021 20:57:26</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>04/13/2021 20:57:42</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>04/13/2021 20:57:54</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>04/13/2021 20:57:58</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>10/22/2021 23:48:30</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>11/26/2020 01:59:12</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Identity.Core.dll">
+      <publishTime>04/23/2021 18:29:28</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Identity.Stores.dll">
+      <publishTime>04/23/2021 18:29:34</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.dll">
+      <publishTime>10/22/2021 23:50:00</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Primitives.dll">
+      <publishTime>10/22/2021 23:50:40</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>05/18/2020 20:11:54</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>06/30/2020 01:04:58</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>06/30/2020 03:05:58</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>06/30/2020 03:06:48</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>06/30/2020 03:13:54</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>06/30/2020 03:09:50</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>08/29/2020 20:14:12</publishTime>
+    </File>
+    <File Include="MimeKit.dll">
+      <publishTime>09/12/2022 13:22:56</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/17/2021 20:03:36</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>08/25/2020 23:25:12</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 20:34:56</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 20:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 20:35:06</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 20:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 20:34:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 20:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 20:34:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 20:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>08/25/2020 23:24:48</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.1/System.Security.Cryptography.Pkcs.dll">
+      <publishTime>10/22/2021 23:51:08</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll">
+      <publishTime>10/22/2021 23:47:18</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 08:53:44</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 08:53:46</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>09/23/2020 12:47:20</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>09/23/2020 12:47:22</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>09/23/2020 12:47:24</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>11/15/2019 08:37:04</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>12/12/2020 02:40:42</publishTime>
+    </File>
+    <File Include="System.Formats.Asn1.dll">
+      <publishTime>10/22/2021 23:41:58</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>06/30/2020 01:03:46</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 08:37:36</publishTime>
+    </File>
+    <File Include="System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>10/22/2021 23:40:56</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.Pkcs.dll">
+      <publishTime>10/22/2021 23:50:04</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 08:37:42</publishTime>
+    </File>
+    <File Include="System.Text.Encoding.CodePages.dll">
+      <publishTime>10/22/2021 23:47:22</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>10/04/2022 22:32:27</publishTime>
+    </File>
+    <File Include="wwwroot/3rdpartylicenses.txt">
+      <publishTime>10/04/2022 22:16:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/076e2a54-2a53-419c-a0a9-165fedbafe1b.jpg">
+      <publishTime>02/14/2022 15:58:06</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/img-1.jpg">
+      <publishTime>08/20/2021 06:39:18</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/img-2.jpg">
+      <publishTime>08/20/2021 06:40:24</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/img-3.jpg">
+      <publishTime>08/20/2021 06:40:50</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/img-4.jpg">
+      <publishTime>08/20/2021 06:41:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/img-def.jpg">
+      <publishTime>08/15/2021 12:48:34</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/img-prim.jpg">
+      <publishTime>08/20/2021 21:58:31</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/logo.png">
+      <publishTime>09/18/2022 16:24:19</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/pozadina.jpg">
+      <publishTime>09/15/2022 18:03:12</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/pozadina2.jpg">
+      <publishTime>09/15/2022 18:03:48</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/white.jpg">
+      <publishTime>09/13/2020 19:26:10</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>09/14/2022 12:55:29</publishTime>
+    </File>
+    <File Include="wwwroot/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf">
+      <publishTime>10/04/2022 22:16:56</publishTime>
+    </File>
+    <File Include="wwwroot/fontawesome-webfont.20fd1704ea223900efa9.woff2">
+      <publishTime>10/04/2022 22:16:56</publishTime>
+    </File>
+    <File Include="wwwroot/fontawesome-webfont.8b43027f47b20503057d.eot">
+      <publishTime>10/04/2022 22:16:56</publishTime>
+    </File>
+    <File Include="wwwroot/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg">
+      <publishTime>10/04/2022 22:16:56</publishTime>
+    </File>
+    <File Include="wwwroot/fontawesome-webfont.f691f37e57f04c152e23.woff">
+      <publishTime>10/04/2022 22:16:56</publishTime>
+    </File>
+    <File Include="wwwroot/index.html">
+      <publishTime>10/04/2022 22:16:56</publishTime>
+    </File>
+    <File Include="wwwroot/main.0b4cf72d460d511c3b25.js">
+      <publishTime>10/04/2022 20:56:17</publishTime>
+    </File>
+    <File Include="wwwroot/main.1d6f6639f38be7af61a1.js">
+      <publishTime>10/04/2022 22:16:56</publishTime>
+    </File>
+    <File Include="wwwroot/main.2d036c1e1077e0e3b1c5.js">
+      <publishTime>10/04/2022 19:50:05</publishTime>
+    </File>
+    <File Include="wwwroot/main.3e5a26e745931ee1bef9.js">
+      <publishTime>10/04/2022 20:52:52</publishTime>
+    </File>
+    <File Include="wwwroot/main.54c8951bba66693dc9a7.js">
+      <publishTime>10/04/2022 19:43:17</publishTime>
+    </File>
+    <File Include="wwwroot/main.6004bc364ca12724d1cd.js">
+      <publishTime>10/04/2022 22:25:56</publishTime>
+    </File>
+    <File Include="wwwroot/main.a6a5e7b89eb401a7a332.js">
+      <publishTime>10/04/2022 20:46:07</publishTime>
+    </File>
+    <File Include="wwwroot/main.c2f353cd9ce574ea315f.js">
+      <publishTime>10/04/2022 19:33:45</publishTime>
+    </File>
+    <File Include="wwwroot/main.d3e75f68c93460b47f5a.js">
+      <publishTime>10/03/2022 19:39:59</publishTime>
+    </File>
+    <File Include="wwwroot/main.d56f87022d2728bafa6c.js">
+      <publishTime>10/04/2022 19:46:32</publishTime>
+    </File>
+    <File Include="wwwroot/polyfills.daf8130ab8f17a1b6340.js">
+      <publishTime>10/04/2022 22:16:56</publishTime>
+    </File>
+    <File Include="wwwroot/pozadina2.dee2c805047225696817.jpg">
+      <publishTime>10/04/2022 22:16:56</publishTime>
+    </File>
+    <File Include="wwwroot/runtime.7b63b9fd40098a2e8207.js">
+      <publishTime>10/04/2022 22:16:56</publishTime>
+    </File>
+    <File Include="wwwroot/styles.3453778a4b1e57a6f1f5.css">
+      <publishTime>10/04/2022 22:16:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

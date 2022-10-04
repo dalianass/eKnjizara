@@ -1,0 +1,37 @@
+<div class="row shadow bk min-visina">
+  <div class="col-sm-3">
+      <div class="card-img-wrapper">
+        <img *ngIf="knjiga.photoUrl" src="{{knjiga.photoUrl}}"  class="card-img-top p-2">
+        <img *ngIf="!knjiga.photoUrl" src="https://res.cloudinary.com/daq9ulbte/image/upload/v1663700741/d6bjrd5igbbeajxkzkpv.webp" class="card-img-top p-2">
+
+      </div>
+  </div>
+
+  <div class="col-sm-4 m-3">
+    <div class="card-header">
+      <h3>Informacije o knjizi:</h3>
+    </div>
+
+    <div class="card-body">
+      <h4> {{knjiga.naslov}}</h4>
+      <div>
+          Autor: {{knjiga.autor}}
+        </div>
+
+      <div class="p-3 mt-1" style="border: 1px solid black; border-radius: 3px;">
+          <p>O knjizi:</p>
+          <p>{{knjiga.about}}</p>
+      </div>
+        <div><strong>Cena: {{knjiga.cena}} RSD</strong></div>
+    </div>
+
+
+
+    <!-- <div>
+      <button class="btn btn-danger m-lg-2">Dodaj u korpu</button>
+    </div> -->
+  </div>
+  <div class="col-sm-4" *ngIf="currentUser && (currentUser.roles.includes('Moderator') || currentUser.roles.includes('Admin'))">
+    <app-photo-editor [knjigaId]="knjiga.id"></app-photo-editor>
+  </div>
+</div>

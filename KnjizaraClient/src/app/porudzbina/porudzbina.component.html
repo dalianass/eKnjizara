@@ -1,0 +1,77 @@
+
+<div class="min-visina">
+  <ng-container *ngIf="listaProizvoda.length != 0">
+    <div class="container mar">
+      <div class="card-table">
+        <div class="card-product">
+
+          <form #forma="ngForm" name="forma">
+
+            <table class="table table-responsive">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Naziv knjige</th>
+                  <th>Autor</th>
+                  <th>Kolicina</th>
+                  <th>Cena po komadu</th>
+                  <th>Ukupno</th>
+                  <th>Obrisi</th>
+                </tr>
+              </thead>
+              <tbody>
+
+                  <tr *ngFor="let item of listaProizvoda; let i = index">
+                    <th>{{i+1}}</th>
+                    <th>{{item.naslov}}</th>
+                    <th>{{item.autor}}</th>
+                    <th>
+                      <!-- <button (click)="smanjiKolicinu(item.quantity)">-</button>
+                      {{item.quantity}}
+                      <button (click)="povecajKolicinu(item.quantity)">+</button> -->
+                      <!-- <input type="text" placeholder="Unesite kolicinu knjiga" id="kolicinaKnjiga"> -->
+                      <input type="number" value="1" min="1" #kolicina="ngModel" name="kolicina" ngModel (blur)="racunaj(item, kolicina)">
+                    </th>
+                    <th>{{item.cena}}</th>
+                    <th>{{item.total}}</th>
+                    <th>
+                      <button class="btn btn-danger" (click)="removeItem(item)">
+                        <i class="fas fa-trash-alt"></i>
+                      </button>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td colspan="2"></td>
+                    <td><button class="btn btn-danger" (click)="emptycart()">Isprazni korpu</button></td>
+                    <td><button class="btn btn-primary" routerLink="/">Poruci jos nesto</button></td>
+                    <td><button class="btn btn-success" (click)="posaljiPorudzbinu()">Poruci</button></td>
+                    <td><strong>Ukupno: {{grandTotal}}</strong></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+
+
+            </table>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="listaProizvoda.length == 0" >
+      <div class="container mar">
+        <!-- <div class="card"> -->
+          <!-- <h5 class="card-title">Vase porudzbine</h5> -->
+        <!-- </div> -->
+
+        <div class="center">
+          <h4>Vasa korpa je prazna!</h4>
+          <h6>Dodajte knjige.</h6>
+          <button class="btn btn-primary" routerLink="/">Poruci zeljene knjige</button>
+        </div>
+      </div>
+
+  </ng-container>
+
+</div>

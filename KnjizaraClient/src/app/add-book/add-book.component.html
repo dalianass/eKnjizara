@@ -1,0 +1,53 @@
+<!-- <button (click)="onBack()" class="btn btn-primary">Back</button> -->
+<div class="margina">
+  <div class="card col-6 m-auto form-margin ">
+    <div class="card-header mt-2">
+        <h5>Dodaj novu knjigu</h5>
+    </div>
+    <div class="card-body">
+        <form class="form-group" (ngSubmit)="onSubmit()" [formGroup]="addBookForm">
+            <label for="naslov">Naslov</label>
+            <input type="text" class="form-control" formControlName="naslov" name="naslov"
+            [class.is-invalid]="addBookForm.get('naslov').errors && addBookForm.get('naslov').touched"/>
+            <div *ngIf="addBookForm.get('naslov').hasError('required')" class="invalid-feedback">Molim vas, unesite naslov</div>
+
+
+            <label for="autor"> Ime i prezime autora</label>
+            <input type="text" class="form-control" formControlName="autor" name="autor"
+            [class.is-invalid]="addBookForm.get('autor').errors && addBookForm.get('autor').touched"/>
+            <div *ngIf="addBookForm.get('autor').hasError('required')" class="invalid-feedback">Molim vas, unesite ime autora</div>
+
+            <label for="cena">Cena</label><br>
+            <small style="color: grey;">*Cena mora biti zapisana ciframa</small>
+            <input type="text" class="form-control" formControlName="cena" name="cena"
+            [class.is-invalid]="addBookForm.get('cena').errors && addBookForm.get('cena').touched"/>
+            <div *ngIf="addBookForm.get('cena').hasError('required')" class="invalid-feedback">Molim vas, unesite cenu</div>
+            <div *ngIf="addBookForm.get('cena').hasError('pattern')" class="invalid-feedback">Cena mora biti zapisana ciframa</div>
+
+            <label for="godinaIzdanja">Godina izdanja</label><br>
+            <small style="color: grey;">*Godina mora biti zapisana ciframa</small>
+
+            <input type="text" class="form-control" formControlName="godinaIzdanja" name="godinaIzdanja" />
+
+            <label for="izdavac">Izdavac</label>
+            <input type="text" class="form-control" formControlName="izdavac" name="izdavac" />
+
+
+            <label for="kolicina">Kolicina u magacinu</label><br>
+            <small style="color: grey;">*Kolicina mora biti zapisana ciframa</small>
+
+            <input type="text" class="form-control" formControlName="kolicinaUMagacinu" name="kolicinaUMagacinu" />
+            <label for="about">Ukratko o knjizi</label>
+            <input type="text" class="form-control" formControlName="about" name="about" />
+
+            <button type="submit" class="btn btn-primary">Sacuvaj</button>
+            <button type="submit" class="btn btn-secondary m-1">Otkazi</button>
+
+
+        <!-- <p>{{addBookForm.value | json}}</p>
+        <p>{{addBookForm.status | json}}</p> -->
+        </form>
+    </div>
+  </div>
+
+</div>

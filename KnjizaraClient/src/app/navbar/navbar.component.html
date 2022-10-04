@@ -1,0 +1,77 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid container">
+      <a class="navbar-brand" href="/" style="border-radius:5px; padding:0.3rem; border: 2px solid  rgb(92, 92, 92);">
+        <img class="logo" src="https://res.cloudinary.com/daq9ulbte/image/upload/v1663709295/r6xejgd7tnko9fvwof9v.png" height="40" alt="">
+        eKnjižara</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link" [routerLinkActiveOptions]={exact:true} routerLinkActive="active" routerLink="/">Pocetna</a>
+                <!-- routerLinkActiveOptions resava problem aktivne stranice time sto je aktivira samo kad
+                  URL POTPUNO odgovara pathu -->
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLinkActive="active" routerLink="/o-nama/">O nama</a>
+              </li>
+
+              <!-- <li class="nav-item">
+                <a class="nav-link" routerLinkActive="active" routerLink="/add-book/">Dodaj knjigu</a>
+            </li> -->
+              <!-- ADMIN -->
+                <ng-container  *ngIf="(accountService.currentUser$ | async) as trenutniUser">
+
+                <li class="nav-item" *ngIf="trenutniUser.roles == 'Admin'">
+                  <a class="nav-link" routerLinkActive="active" routerLink="/add-book/">Dodaj knjigu</a>
+              </li>
+              <li
+              class="nav-item" *ngIf="trenutniUser.roles == 'Admin'" >
+              <a class="nav-link" routerLinkActive="active" routerLink="/admin/">Upravljanje ulogama</a>
+            </li>
+
+            <!-- MODERATOR -->
+
+              <li class="nav-item" *ngIf="trenutniUser.roles == 'Moderator'" >
+                <a class="nav-link" routerLinkActive="active" routerLink="/pristigle-porudzbine/">Upravljanje porudzbinama</a>
+              </li>
+
+              <li class="nav-item" *ngIf="trenutniUser.roles == 'Moderator'">
+                <a class="nav-link" routerLinkActive="active" routerLink="/add-book/">Dodaj knjigu</a>
+            </li>
+              <!-- KORISNIK -->
+
+                <li class="nav-item"  *ngIf="trenutniUser.roles == 'Korisnik'">
+                  <a class="nav-link" routerLinkActive="active" routerLink="/moje-porudzbine/">Moje porudzbine</a>
+                </li>
+              </ng-container>
+
+          </ul>
+           <div>
+              <ul class="nav navbar-nav">
+                  <li *ngIf="!loggedIn()" class="nav-item">
+                      <a routerLink="/user/register" routerLinkActive="active" class="nav-link">Registracija</a></li>
+                  <li *ngIf="!loggedIn()" class="nav-item">
+                      <a routerLink="/user/login" routerLinkActive="active" class="nav-link">Prijava</a>
+                  </li>
+
+                  <div *ngIf="loggedIn()" class="dropdown mr-5" style="margin-top: 0.4rem;" dropdown>
+                    <a (click)="onLogout()" style="color: white; cursor: pointer;">
+                      <i class="far fa-sign-out-alt"></i> Odjavi se</a>
+                  </div>
+                    <ng-container  *ngIf="(accountService.currentUser$ | async) as trenutniUser">
+
+                    <li class="nav-item"   *ngIf="trenutniUser.roles == 'Korisnik'">
+                      <a routerLink="/porudzbina/" routerLinkActive="active" class="nav-link">
+                          <i style="font-size: 25px" class="fas fa-cart-plus"></i>
+                          <span style="font-size: 10px" class="bagde bg-danger">{{totalItem}}</span>
+                      </a>
+                  </li>
+                  </ng-container>
+
+              </ul>
+          </div>
+      </div>
+  </div>
+</nav>

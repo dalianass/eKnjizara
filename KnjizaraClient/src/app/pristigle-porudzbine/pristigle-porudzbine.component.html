@@ -1,0 +1,32 @@
+<h2>Porudzbine za obradjivanje:</h2>
+
+<table class="table table-responsive">
+  <thead>
+    <tr>
+      <th>Id porudzbine</th>
+      <th>Id korisnika</th>
+      <th>Ukupno za placanje</th>
+      <th>Knjige</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+
+ <tr *ngFor="let item of listaPorucenihKnjiga; let i = index">
+  <ng-container *ngIf="item.isFinished == false">
+    <th>{{item.id}}</th>
+    <th>{{item.appUserId}}</th>
+    <th>{{item.ukupnoZaPlacanje}} RSD</th>
+    <th>
+      <span *ngFor="let smth of item.knjige; let i = index">
+       Naslov: {{smth.naslov}},<br> Autor: {{smth.autor}},<br>
+       <span style="color: rgb(19, 87, 132);">Kolicina - {{smth.kolicina}} <br> </span>
+      </span>
+    </th>
+    <th>
+      <button class="btn btn-warning" (click)="zavrsiPorudzbinu(item)">
+       Zavrsi porudzbinu
+      </button>
+    </th>
+  </ng-container>
+  </tr>

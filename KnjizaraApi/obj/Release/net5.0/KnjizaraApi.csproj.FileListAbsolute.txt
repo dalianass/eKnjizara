@@ -1,0 +1,164 @@
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\appsettings.Development.json
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\appsettings.json
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\KnjizaraApi.exe
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\KnjizaraApi.deps.json
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\KnjizaraApi.runtimeconfig.json
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\KnjizaraApi.runtimeconfig.dev.json
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\KnjizaraApi.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\ref\KnjizaraApi.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\KnjizaraApi.pdb
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.OpenApi.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\prame\Desktop\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.csprojAssemblyReference.cache
+C:\Users\prame\Desktop\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prame\Desktop\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.AssemblyInfoInputs.cache
+C:\Users\prame\Desktop\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.AssemblyInfo.cs
+C:\Users\prame\Desktop\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.csproj.CoreCompileInputs.cache
+C:\Users\prame\Desktop\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\prame\Desktop\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\prame\Desktop\KnjizaraApi\obj\Release\net5.0\staticwebassets\KnjizaraApi.StaticWebAssets.Manifest.cache
+C:\Users\prame\Desktop\KnjizaraApi\obj\Release\net5.0\staticwebassets\KnjizaraApi.StaticWebAssets.xml
+C:\Users\prame\Desktop\KnjizaraApi\obj\Release\net5.0\scopedcss\bundle\KnjizaraApi.styles.css
+C:\Users\prame\Desktop\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.RazorTargetAssemblyInfo.cache
+C:\Users\prame\Desktop\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.csproj.CopyComplete
+C:\Users\prame\Desktop\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.dll
+C:\Users\prame\Desktop\KnjizaraApi\obj\Release\net5.0\ref\KnjizaraApi.dll
+C:\Users\prame\Desktop\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.pdb
+C:\Users\prame\Desktop\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.genruntimeconfig.cache
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\AutoMapper.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\CloudinaryDotNet.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Humanizer.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\MailKit.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.Identity.Client.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\MimeKit.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\Newtonsoft.Json.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\BouncyCastle.Crypto.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\System.Formats.Asn1.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\System.Runtime.Caching.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\System.Text.Encoding.CodePages.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\prame\Desktop\KnjizaraApi\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\appsettings.Development.json
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\appsettings.json
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\KnjizaraApi.exe
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\KnjizaraApi.deps.json
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\KnjizaraApi.runtimeconfig.json
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\KnjizaraApi.runtimeconfig.dev.json
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\KnjizaraApi.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\ref\KnjizaraApi.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\KnjizaraApi.pdb
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\AutoMapper.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\CloudinaryDotNet.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Humanizer.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\MailKit.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.Identity.Client.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Microsoft.OpenApi.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\MimeKit.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Newtonsoft.Json.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\BouncyCastle.Crypto.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\System.Formats.Asn1.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\System.Runtime.Caching.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\System.Text.Encoding.CodePages.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.csprojAssemblyReference.cache
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.AssemblyInfoInputs.cache
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.AssemblyInfo.cs
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.csproj.CoreCompileInputs.cache
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\obj\Release\net5.0\staticwebassets\KnjizaraApi.StaticWebAssets.Manifest.cache
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\obj\Release\net5.0\staticwebassets\KnjizaraApi.StaticWebAssets.xml
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\obj\Release\net5.0\scopedcss\bundle\KnjizaraApi.styles.css
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.RazorTargetAssemblyInfo.cache
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.csproj.CopyComplete
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\obj\Release\net5.0\ref\KnjizaraApi.dll
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.pdb
+C:\Users\prame\Desktop\E-Knjizara, FINAL\KnjizaraApi\obj\Release\net5.0\KnjizaraApi.genruntimeconfig.cache

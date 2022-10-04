@@ -1,0 +1,26 @@
+<div class="row bk">
+  <table class="table">
+    <tr>
+      <th style="width: 30%; height: 1rem;">Korisnicko ime</th>
+      <th style="width: 30%;">Aktivne uloge</th>
+      <th style="width: 30%;"></th>
+    </tr>
+    <tr *ngFor="let user of users; index as i" style="border-bottom: 1px solid rgb(255, 255, 255);">
+      <td>Ime i prezime: <strong>{{user.username}} {{user.userSurname}};</strong> <br> Adresa i grad: {{user.address}} {{user.city}}; <br> Email
+        - <strong style="color: rgb(249, 78, 78);">{{user.email}} </strong></td>
+      <td>{{user.roles}}</td>
+      <td>
+        <!-- <button (click)="openRolesModal(user)" class="btn btn-info">Uredi uloge</button> -->
+        <label for="admin[{{i}}]">Admin</label>
+        <input type="checkbox" name="Admin" id="admin[{{i}}]" [(ngModel)]="isCheckedAdmin[i]" >
+        <label for="moderator[{{i}}]">Moderator</label>
+        <input type="checkbox" name="Moderator" id="moderator[{{i}}]" [(ngModel)]="isCheckedModerator[i]">
+        <label for="korisnik[{{i}}]">Korisnik</label>
+        <input type="checkbox" name="Korisnik" id="korisnik[{{i}}]" [(ngModel)]="isCheckedKorisnik[i]">
+
+      </td>
+      <td><button (click)="sacuvajUpdate(user, i)" class="btn btn-outline-dark">Sacuvaj</button></td>
+
+    </tr>
+  </table>
+</div>

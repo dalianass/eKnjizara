@@ -1,0 +1,25 @@
+  <div class="uvod">
+
+  </div>
+  <div class="row">
+    <!-- <app-search (searchTextChanged)="onSearchTextEntered($event)" style="margin-top: 4rem"></app-search> -->
+    <div *ngFor="let item of nizKnjiga" class="shadow-lg col-sm-3 p-3 mt-3">
+      <span *ngIf="searchText == '' || item.naslov.toLowerCase().includes(searchText.toLowerCase()) || item.autor.toLowerCase().includes(searchText.toLowerCase())">
+        <app-book-card [knjiga] ="item"></app-book-card>
+      </span>
+    </div>
+  </div>
+
+  <hr>
+
+
+  <!-- <div class="section-komentari">
+    <h2 class="h2-komentar">Drugi o nama</h2>
+    <div class="row">
+     <i class="fas fa-quote-right comment"></i>
+         <p style="margin-left: 5rem;" class="col-1-of-3 p-komentar"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i> <br><br> <i>Elma Smajović</i><br><br> </p>
+         <p class="col-1-of-3 p-komentar"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i> <br><br> <i>Elma Lukač</i><br><br>O</p>
+         <p class="col-1-of-3 p-komentar"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i> <br><br> <i>Amina Fetahović</i><br><br></p>
+    </div>
+</div> -->
+
